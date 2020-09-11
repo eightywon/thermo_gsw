@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+	<title>
+		Thermo
+	</title>
+	<link href="lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
+	<link href="lib/tau/wearable/theme/default/tau.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/style.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+	<script src="js/circle-helper.js"></script>
+	<script src="js/moment.js"></script>
+	<script src="lib/tau/wearable/js/tau.js"></script>
+</head>
+
+<body>
+	<div class="ui-page" id="main">
+		<div class="ui-content">
+			<div class="ui-title" id="time"></div>
+			<div class="top-half">
+					<div class="left-side">
+						<div class="temps cold" id="probe0"></div>
+						<div class="label" id="p0label">Probe 0</div>
+					</div>
+					<div class="right-side">
+						<div class="temps good" id="probe1"></div>
+						<div class="label" id="p1label">Probe 1</div>
+					</div>
+			</div>
+			<div class="bottom-half">
+				<div class="left-side">
+					<div class="temps hot" id="probe2"></div>
+					<div class="label" id="p2label">Probe 2</div>
+				</div>
+				<div class="right-side">
+					<div class="temps atrisk" id="probe3"></div>
+					<div class="label" id="p3label">Probe 3</div>
+				</div>
+			</div>
+			<div class="status">
+				<div id="spinner"><img src="loading.gif" height=32 width=32></div>
+				<div id="status"></div>
+			</div>
+			<div id="bottomBtnPopup" class="ui-popup">
+	   			<div class="ui-popup-content">
+					DANGER WILL ROBINSON DANGER
+	   			</div>
+	   			<div class="ui-popup-footer ui-bottom-button">
+	      			<button id="bottomBtn" class="ui-btn" onclick="killShake();">Snooze</button>
+	   			</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.js">
+	</script>
+</body>
+
+</html>

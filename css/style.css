@@ -1,0 +1,63 @@
+/* this file is left blank on purpose, if developer can't find classes he needs in framework, he can customize his
+app adding his own styles here
+ */
+
+.ui-content {
+	margin-top: 10px !important; 
+}
+ 
+ .top-half {
+    height: 120px;
+    border-bottom-style: solid;
+}
+
+.bottom-half {
+    height: 120px;
+    border-top-style: solid;
+}
+
+.left-side {
+    width: 50%;
+    float: left;
+    border-right-style: solid;
+}
+
+.right-side {
+    width: 50%;
+    float: right;
+    border-left-style: solid;
+}
+
+.temps {
+	font-size: 60px;
+	margin-top: 32px;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+
+.status {
+	height: 10px; 
+}
+
+.label {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.hot {
+	color: red
+}
+
+.cold {
+	color: blue
+}
+
+.good {
+	color: green
+}
+
+.atrisk {
+	color: orange
+}

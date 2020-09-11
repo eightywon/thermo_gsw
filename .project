@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>thermo_gsw</name>
+	<comment></comment>
+	<projects>
+		<project>thermoService</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>json.validation.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.tizen.web.project.builder.WebBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>json.validation.nature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+		<nature>org.tizen.web.project.builder.WebNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>js/moment.js</name>
+			<type>1</type>
+			<location>C:/Users/Scott/workspace/thermo_gsw/js/moment.js</location>
+		</link>
+	</linkedResources>
+</projectDescription>
